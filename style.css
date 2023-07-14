@@ -272,24 +272,30 @@ footer{
 }	
 
 /*
-<div class="story" id="story">
-		<ul class="nb-list">
-			<li class="blue">Rock and Roll</li>
-			<li class="gray">&nbsp;</li>
-			<li class="yellow dragging">Laughter</li>
-			<li class="red">Square Offs</li>
-			<li class="pink">Routes</li>
-			<li class="salmon">Trig</li>
-			<li class="blue">Rad Hats</li>
-			<li class="yellow">Being Silly</li>
-			
-		</ul>
-		<h3>Left: Things We Find Important</br>
-		Below: Our Story</h3>
-		<p>Once Upon a time there was a group of shapes. They were mostly black and square. They were mean and serious. </p>
+<div class="popup">
+		<div class="blanket"></div>
+		<div class="content">
+			<h2>Fill In Your Details</h2>
 
-			<p>And so they kicked the 3 shapes that didn't conform out of their gang, which was called the right Angled Gang.</p>
-
-		<p>And so those three shapes were very sad.</p>
-	</div>
+			<form action="">
+				<div class="item">
+					<label>Your First Name</label>
+					<input type="text" placeholder="Trevor">
+				</div>
+				<div class="item">
+					<label>Your Last Name</label>
+					<input type="text" placeholder="Circleface">
+				</div>
+				<div class="item">
+					<label>Your Favorite Color</label>
+					<input type="text" placeholder="Green">
+				</div>
+				<div class="item">
+					<label>Your Favorite Food</label>
+					<input type="text" placeholder="Rocks">
+				</div>
+				<button class="cta">I Want In</button>
+			</form>
+			<button class="close">Close</button>
+		</div>
 */
