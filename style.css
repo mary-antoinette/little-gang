@@ -268,8 +268,25 @@ footer{
 	}
 
 .popup{
-	display: none;
+	/*display: none;*/
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+
 }	
+
+.popup .blanket{
+	background-color: rbga(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+}
 
 /*
 <div class="popup">
@@ -300,5 +317,5 @@ footer{
 		</div>
 
 
-	
+
 */
